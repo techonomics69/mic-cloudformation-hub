@@ -1,6 +1,6 @@
 <div align="center">
     <a href="https://microtica.com">
-        <img src="https://mk0microtica2di3k2co.kinstacdn.com/wp-content/uploads/2020/04/logo-color-1.svg" alt="microtica" height="60">
+        <img src="https://microtica.com/wp-content/uploads/2020/04/logo-color-1.svg" alt="microtica" height="60">
     </a>
     <br>
     <br>
@@ -11,6 +11,7 @@
         <i>Microtica dramatically simplifies cloud setup and brings DevOps automation closer to developers - <a href="https://microtica.com/blog">Subscribe on our Blog</a></i>
     </p>
     <p>
+    <img src="https://microtica.com/wp-content/uploads/2020/09/dev-environment.png">
 </div>
 
 <br>
