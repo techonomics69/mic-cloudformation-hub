@@ -63,7 +63,12 @@ After you submit a pull request, we will review the templates, deploy them on ou
 Finally, when we accept the pull request, we will publish the component in a separate GitHub repository and make you a contributor. Also we will make it available in the Microtica portal for **free usage**.
 
 ## Coding guidelines
-CloudFormation templates should follow [AWS CloudFormation best practices](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/best-practices.html).
+CloudFormation templates should follow [AWS CloudFormation best practices](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/best-practices.html)
+
+And some more:
+- Make the template as generic as possible. The templates are intended to be used by as many developers as possible. E.g. Kubernetes cluster, PostgreSQL database, SPA hosting infrastructure etc.
+- Give your best to make the templates as parametrized as possible. This will allow developers using the templates to configure them easily without adapting the code
+- Define output parameters that would be relevant for other components to use. E.g. if you develop a template that creates a VPC, add `vpcId` as an output so other components (e.g. RDS MySql infrastructure that needs a VPC ID as input) can use it as a reference
 
 ## Git Flow
 We use Github Flow, so all code changes happen through pull requests.
