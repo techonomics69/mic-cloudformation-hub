@@ -70,6 +70,8 @@ And some more:
 - Give your best to make the templates as parametrized as possible. This will allow developers using the templates to configure them easily without adapting the code
 - Define output parameters that would be relevant for other components to use. E.g. if you develop a template that creates a VPC, add `vpcId` as an output so other components (e.g. RDS MySql infrastructure that needs a VPC ID as input) can use it as a reference
 
+Example template can be found [here](https://github.com/microtica-components/mic-cloudformation-hub/tree/master/component-s3-bucket).
+
 ## Git Flow
 We use Github Flow, so all code changes happen through pull requests.
 
